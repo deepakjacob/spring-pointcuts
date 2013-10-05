@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfef9ec7-34e6-4f52-8775-6f111c402bbe" name="Default" comment="" />
+    <list default="true" id="cfef9ec7-34e6-4f52-8775-6f111c402bbe" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
     <ignored path="spring-pointcuts.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="cfef9ec7-34e6-4f52-8775-6f111c402bbe" time="1380953935645" ignored="false" />
@@ -21,6 +24,7 @@
     <file path="/fragment.java" changelist="cfef9ec7-34e6-4f52-8775-6f111c402bbe" time="1380956591810" ignored="false" />
     <file path="/BeforeAspectTest.java" changelist="cfef9ec7-34e6-4f52-8775-6f111c402bbe" time="1380956605493" ignored="false" />
     <file path="/README.md" changelist="cfef9ec7-34e6-4f52-8775-6f111c402bbe" time="1380956747660" ignored="false" />
+    <file path="/Dummy.txt" changelist="cfef9ec7-34e6-4f52-8775-6f111c402bbe" time="1380957043868" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,11 +97,13 @@
                 <node x="172.0" y="400.0">org.aspectj:aspectjtools:jar:1.6.10</node>
                 <node x="389.0" y="360.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE</node>
                 <node x="389.0" y="160.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-beans:jar:3.2.4.RELEASE</node>
+                <node x="-53.0" y="-15.0">org.springframework:spring-test:jar:3.2.4.RELEASE</node>
                 <node x="-54.5" y="-15.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-beans:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE</node>
                 <node x="730.0" y="320.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-expression:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE</node>
                 <node x="549.0" y="280.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE</node>
                 <node x="-52.5" y="-15.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE/aopalliance:aopalliance:jar:1.0</node>
                 <node x="172.0" y="160.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE</node>
+                <node x="-54.5" y="-15.0">org.springframework:spring-test:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE</node>
                 <node x="549.0" y="320.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-expression:jar:3.2.4.RELEASE</node>
                 <node x="-54.5" y="-15.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE</node>
                 <node x="-59.5" y="-15.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE/org.springframework:spring-beans:jar:3.2.4.RELEASE</node>
@@ -127,18 +133,22 @@
                   <point x="265.5" y="215.0" />
                   <point x="0.0" y="0.0" />
                 </edge>
+                <edge source="spring.pointcuts:spring-pointcuts:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:3.2.4.RELEASE">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
                 <edge source="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE" target="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-beans:jar:3.2.4.RELEASE">
                   <point x="0.0" y="0.0" />
                   <point x="454.0" y="255.0" />
                   <point x="0.0" y="0.0" />
                 </edge>
-                <edge source="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE" target="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE/org.springframework:spring-beans:jar:3.2.4.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
                 <edge source="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE" target="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-expression:jar:3.2.4.RELEASE">
                   <point x="0.0" y="0.0" />
                   <point x="454.0" y="335.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE" target="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE/org.springframework:spring-beans:jar:3.2.4.RELEASE">
+                  <point x="0.0" y="0.0" />
                   <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE" target="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE/commons-logging:commons-logging:jar:1.1.1">
@@ -159,15 +169,15 @@
                   <point x="0.0" y="0.0" />
                   <point x="0.0" y="0.0" />
                 </edge>
+                <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
                 <edge source="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-expression:jar:3.2.4.RELEASE" target="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-expression:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE">
                   <point x="0.0" y="0.0" />
                   <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE" target="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE/aopalliance:aopalliance:jar:1.0">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
                   <point x="0.0" y="0.0" />
                   <point x="0.0" y="0.0" />
                 </edge>
@@ -178,6 +188,10 @@
                 <edge source="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE" target="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE">
                   <point x="0.0" y="0.0" />
                   <point x="454.0" y="295.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="org.springframework:spring-test:jar:3.2.4.RELEASE" target="org.springframework:spring-test:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE">
+                  <point x="0.0" y="0.0" />
                   <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="org.springframework:spring-context-support:jar:3.2.4.RELEASE" target="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-beans:jar:3.2.4.RELEASE">
@@ -199,9 +213,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/spring/pointcuts/AroundAspectTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="9" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -218,7 +230,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -284,6 +296,14 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -458,7 +478,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -484,8 +504,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -617,6 +637,8 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.0" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-pointcuts-before" />
@@ -626,6 +648,8 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
@@ -732,6 +756,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -758,19 +795,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -839,7 +863,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="803" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -848,12 +872,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33039647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33406115" sideWeight="0.5007342" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31061694" sideWeight="0.5021962" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31061694" sideWeight="0.5021962" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4978038" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -861,6 +884,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33039647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -928,9 +952,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/spring/pointcuts/service/SayHelloService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="32" selection-start="211" selection-end="226" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="32" selection-start="211" selection-end="226" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spring/pointcuts/service/impl/SayHelloServiceImpl.java">
@@ -958,11 +980,13 @@
             <node x="172.0" y="400.0">org.aspectj:aspectjtools:jar:1.6.10</node>
             <node x="389.0" y="360.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE</node>
             <node x="389.0" y="160.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-beans:jar:3.2.4.RELEASE</node>
+            <node x="-53.0" y="-15.0">org.springframework:spring-test:jar:3.2.4.RELEASE</node>
             <node x="-54.5" y="-15.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-beans:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE</node>
             <node x="730.0" y="320.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-expression:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE</node>
             <node x="549.0" y="280.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE</node>
             <node x="-52.5" y="-15.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE/aopalliance:aopalliance:jar:1.0</node>
             <node x="172.0" y="160.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE</node>
+            <node x="-54.5" y="-15.0">org.springframework:spring-test:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE</node>
             <node x="549.0" y="320.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-expression:jar:3.2.4.RELEASE</node>
             <node x="-54.5" y="-15.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE</node>
             <node x="-59.5" y="-15.0">org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE/org.springframework:spring-beans:jar:3.2.4.RELEASE</node>
@@ -992,18 +1016,22 @@
               <point x="265.5" y="215.0" />
               <point x="0.0" y="0.0" />
             </edge>
+            <edge source="spring.pointcuts:spring-pointcuts:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:3.2.4.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
             <edge source="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE" target="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-beans:jar:3.2.4.RELEASE">
               <point x="0.0" y="0.0" />
               <point x="454.0" y="255.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE" target="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE/org.springframework:spring-beans:jar:3.2.4.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
             <edge source="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE" target="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-expression:jar:3.2.4.RELEASE">
               <point x="0.0" y="0.0" />
               <point x="454.0" y="335.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE" target="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE/org.springframework:spring-beans:jar:3.2.4.RELEASE">
+              <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE" target="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE/commons-logging:commons-logging:jar:1.1.1">
@@ -1024,15 +1052,15 @@
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
+            <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
             <edge source="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-expression:jar:3.2.4.RELEASE" target="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-expression:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE" target="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE/aopalliance:aopalliance:jar:1.0">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
@@ -1043,6 +1071,10 @@
             <edge source="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE" target="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE">
               <point x="0.0" y="0.0" />
               <point x="454.0" y="295.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-test:jar:3.2.4.RELEASE" target="org.springframework:spring-test:jar:3.2.4.RELEASE/org.springframework:spring-core:jar:3.2.4.RELEASE">
+              <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="org.springframework:spring-context-support:jar:3.2.4.RELEASE" target="org.springframework:spring-context-support:jar:3.2.4.RELEASE/org.springframework:spring-beans:jar:3.2.4.RELEASE">
@@ -1061,16 +1093,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjtools/1.6.10/aspectjtools-1.6.10.jar!/org/aspectj/lang/ProceedingJoinPoint.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjtools/1.6.10/aspectjtools-1.6.10-sources.jar!/org/aspectj/lang/ProceedingJoinPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="102" selection-start="605" selection-end="705" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="17" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spring/pointcuts/service/impl/SayHelloServiceImpl.java">
@@ -1089,9 +1112,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spring/pointcuts/service/SayHelloService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="17" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-context-around-aspect.xml">
@@ -1125,9 +1146,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/spring/pointcuts/AroundAspectTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="9" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,9 +1157,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjtools/1.6.10/aspectjtools-1.6.10-sources.jar!/org/aspectj/lang/ProceedingJoinPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="102" selection-start="605" selection-end="705" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

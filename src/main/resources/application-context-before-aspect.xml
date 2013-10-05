@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+
+    <bean id="sayHelloService" class="spring.pointcuts.service.impl.SayHelloServiceImpl"/>
+
+    <bean id="loggingAspect" class="spring.pointcuts.aspect.BeforeAspect"/>
+
+    <aop:config>
+        <aop:aspect id="aspectLoggingExample" ref="loggingAspect">
+            <aop:pointcut id="beforeSayHello"
+                          expression="execution (* spring.pointcuts.service.SayHelloService.*(String)) &amp;&amp; args(name)"/>
+            <aop:before method="logBeforeSayHello" pointcut-ref="beforeSayHello"/>
+        </aop:aspect>
+    </aop:config>
+
+
+</beans>
